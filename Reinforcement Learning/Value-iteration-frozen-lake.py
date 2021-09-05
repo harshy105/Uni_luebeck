@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Apr  6 19:13:02 2020
-
-@author: hongh
-"""
-
 import numpy as np
 import gym
 import matplotlib.pyplot as plt
