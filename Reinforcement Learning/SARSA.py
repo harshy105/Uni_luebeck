@@ -1,7 +1,3 @@
-#!/usr/bin/env/ python
-import gym
-import numpy as np
-
 class SARSA_Learner(object):
     def __init__(self, env):
         self.obs_shape = env.observation_space.shape
