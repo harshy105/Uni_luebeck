@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Apr  6 19:32:22 2020
-
-@author: hongh
-"""
 import numpy as np
 import matplotlib.pyplot as plt
 import gym
