@@ -1,8 +1,3 @@
-#!/usr/bin/env/ python
-import gym
-import numpy as np
-
-
 def replacing_trace(trace, activeTiles, lam, gamma):
     '''Todo: replacing trace update rule
     # trace: old trace 
