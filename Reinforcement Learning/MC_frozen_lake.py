@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu May  7 12:13:37 2020
-
-@author: hongh
-"""
-
 import numpy as np
 import gym
 import time
