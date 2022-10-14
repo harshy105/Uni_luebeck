@@ -32,28 +32,13 @@ def calc_Q_pi(V_pi, model, gamma):
 
 
 def policy_iter(env, gamma, theta):
-    """To Do : Implement Policy Iteration Algorithm
-    gamma (float) - discount factor
-    theta (float) - termination condition
-    env - environment with following required memebers:
-    
-    Useful variables/functions:
-        
-            env.nb_states - number of states
-            env.nb_actions - number of actions
-            env.model     - prob-transitions and rewards for all states and actions, you can play around that
-        
-        
-        return the value function V and policy pi, 
-        pi should be a determinstic policy and an illustration of randomly initialized policy is below
-    """
+
     # initialize the random policy
     pi = np.random.randint(low=0, high=env.action_space.n, size=env.nb_states)
     # Initialize the value function
     V = np.zeros(env.nb_states)
     V_old = np.ones(env.nb_states)
-    # To do......
-    
+
     while np.linalg.norm(V-V_old)>theta:
         V_old = V
         # Policy Evaluation (V) 
@@ -68,7 +53,7 @@ def policy_iter(env, gamma, theta):
 
 
 if __name__ == '__main__':
-    env = gym.make('FrozenLake-v0')
+    env = gym.make('FrozenLake-v1')
     env.reset()
     env.render()
     
