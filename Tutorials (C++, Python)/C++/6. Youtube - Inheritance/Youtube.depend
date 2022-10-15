@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1629894017 source:c:\users\harsh\documents\c++\youtube\main.cpp
+	<iostream>
+	"Daughter.h"
+	"Mother.h"
+
+1629893953 c:\users\harsh\documents\c++\youtube\daughter.h
+	"Mother.h"
+
+1629893492 c:\users\harsh\documents\c++\youtube\mother.h
+
+1629893953 source:c:\users\harsh\documents\c++\youtube\mother.cpp
+	<iostream>
+	"Mother.h"
+
+1629893931 source:c:\users\harsh\documents\c++\youtube\daughter.cpp
+	<iostream>
+	"Daughter.h"
+

@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1629882653 source:c:\users\harsh\documents\c++\youtube\main.cpp
+	<iostream>
+	"People.h"
+	"Birthday.h"
+
+1629546018 c:\users\harsh\documents\c++\youtube\class_1.h
+
+1629546886 source:c:\users\harsh\documents\c++\youtube\class_1.cpp
+	"Class_1.h"
+	<iostream>
+
+1629804529 source:c:\users\harsh\documents\c++\youtube\sally.cpp
+	<iostream>
+	"Sally.h"
+
+1629802897 c:\users\harsh\documents\c++\youtube\sally.h
+
+1629882708 source:c:\users\harsh\documents\c++\youtube\birthday.cpp
+	"Birthday.h"
+	<iostream>
+
+1629882057 c:\users\harsh\documents\c++\youtube\birthday.h
+
+1629882586 c:\users\harsh\documents\c++\youtube\people.h
+	<string>
+	"Birthday.h"
+
+1629882689 source:c:\users\harsh\documents\c++\youtube\people.cpp
+	"People.h"
+	"Birthday.h"
+	<iostream>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1629983232 source:c:\users\harsh\documents\c++\youtube\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+

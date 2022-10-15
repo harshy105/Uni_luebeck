@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1629884563 source:c:\users\harsh\documents\c++\youtube\main.cpp
+	<iostream>
+	"Hannah.h"
+
+1629884572 c:\users\harsh\documents\c++\youtube\hannah.h
+
+1629884584 source:c:\users\harsh\documents\c++\youtube\hannah.cpp
+	<iostream>
+	"Hannah.h"
+
